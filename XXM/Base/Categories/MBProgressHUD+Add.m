@@ -40,7 +40,8 @@
     }
     
     [hud.bezelView setStyle:MBProgressHUDBackgroundStyleSolidColor];
-    [hud.bezelView setColor:kBlack_ColorAlpha(0.5f)];
+    [hud.bezelView setColor:[UIColor colorWithHexString:@"000000" alpha:0.5]];
+    
 //    hud.bezelView setb
 //    [hud.bezelView setBlurEffectStyle:UIBlurEffectStyleDark];
 //    [hud setBackgroundColor:[UIColor clearColor]];//kBlack_Color
@@ -77,7 +78,7 @@
     //    hud.labelText = message;
     hud.detailsLabel.text=message;//label
     hud.detailsLabel.textColor=[UIColor whiteColor];
-    [hud.backgroundView setBackgroundColor:kBlack_ColorAlpha(0.5f)];
+    [hud.backgroundView setBackgroundColor:[UIColor colorWithHexString:@"000000" alpha:0.5]];
     hud.mode = MBProgressHUDModeCustomView;
     // 隐藏时候从父控件中移除
     hud.removeFromSuperViewOnHide = YES;
@@ -165,9 +166,9 @@
     [self hideHUDForView:view animated:YES];
 }
 
-+(void)showErrorInVC:(NSError *)error{
-    [ZFTProgressHUD showMessage:(error.userInfo==nil||error.userInfo.count==0||[[error.userInfo[@"info"] zft_trim] isEqualToString:@""]||error.userInfo[@"info"]==nil)?kErrorNotificationString:error.userInfo[@"info"]];
-}
+//+(void)showErrorInVC:(NSError *)error{
+//    [ZFTProgressHUD showMessage:(error.userInfo==nil||error.userInfo.count==0||[[error.userInfo[@"info"] zft_trim] isEqualToString:@""]||error.userInfo[@"info"]==nil)?kErrorNotificationString:error.userInfo[@"info"]];
+//}
 
 +(UIWindow *(^)(void))lastWindow{
     return ^UIWindow *{
@@ -196,7 +197,7 @@
     [MBProgressHUD showSuccess:status];
 }
 
-+ (void)showErrorWithStatus:(NSString*)status{
-    [ZFTProgressHUD showMessage:status];
-}
+//+ (void)showErrorWithStatus:(NSString*)status{
+//    [ZFTProgressHUD showMessage:status];
+//}
 @end

@@ -8,6 +8,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "QQNavigationController.h"
+#import "QQTabBarController.H"
 @interface AppDelegate ()
 
 @end
@@ -20,8 +21,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    MainViewController * rootVC = [[MainViewController alloc] init];
-    self.window.rootViewController = [[QQNavigationController alloc] initWithRootViewController:rootVC];
+    QQTabBarController * rootVC = [[QQTabBarController alloc] init];
+    self.window.rootViewController = rootVC;//[[QQNavigationController alloc] initWithRootViewController:rootVC];
     [self.window makeKeyAndVisible];
     return YES;
 }

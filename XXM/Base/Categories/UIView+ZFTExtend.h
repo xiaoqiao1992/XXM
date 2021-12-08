@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QQBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGSize size;
 
 //获取当前view的superView对应的控制器
-- (ZFTBaseViewController *)zftViewController;
+- (QQBaseViewController *)zftViewController;
 
 @end
 

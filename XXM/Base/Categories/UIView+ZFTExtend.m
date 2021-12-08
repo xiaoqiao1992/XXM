@@ -97,11 +97,11 @@
 }
 
 //获取当前view的superView对应的控制器
-- (ZFTBaseViewController *)zftViewController{
+- (QQBaseViewController *)zftViewController{
     UIResponder *next = [self nextResponder];
     do {
-        if ([next isKindOfClass:[ZFTBaseViewController class]]) {
-            return (ZFTBaseViewController *)next;
+        if ([next isKindOfClass:[QQBaseViewController class]]) {
+            return (QQBaseViewController *)next;
         }
         next = [next nextResponder];
     } while (next != nil);

@@ -7,39 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702B8D1127604240003F0458 /* QQCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D102760423F003F0458 /* QQCustomButton.m */; };
+		702B8D14276047E2003F0458 /* QQCustomItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D13276047E2003F0458 /* QQCustomItemView.m */; };
+		702B8D1727604DDD003F0458 /* QQCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D1627604DDD003F0458 /* QQCustomTabBar.m */; };
+		702B8D2327605924003F0458 /* QQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2227605924003F0458 /* QQTabBarController.m */; };
+		702B8D2627605EA2003F0458 /* QQBaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2527605EA2003F0458 /* QQBaseTabBar.m */; };
+		702B8D3227607D71003F0458 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2827607D71003F0458 /* FourViewController.m */; };
+		702B8D3327607D71003F0458 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2A27607D71003F0458 /* ThreeViewController.m */; };
+		702B8D3427607D71003F0458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2B27607D71003F0458 /* ViewController.m */; };
+		702B8D3527607D71003F0458 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2C27607D71003F0458 /* MainViewController.m */; };
+		702B8D3627607D71003F0458 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2F27607D71003F0458 /* SecondViewController.m */; };
+		702B8D422760902E003F0458 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D402760902E003F0458 /* Reachability.m */; };
+		702B8D4927609167003F0458 /* QQDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D4827609167003F0458 /* QQDataManager.m */; };
+		702B8D4C276092B2003F0458 /* QQLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D4B276092B2003F0458 /* QQLoginModel.m */; };
+		702B8D522760967A003F0458 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D512760967A003F0458 /* HttpTool.m */; };
+		702B8D57276098F6003F0458 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D53276098F6003F0458 /* NSDictionary+Category.m */; };
+		702B8D58276098F6003F0458 /* NSString+Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D55276098F6003F0458 /* NSString+Password.m */; };
+		702B8D5927609D79003F0458 /* NetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D4327609037003F0458 /* NetWorkStatus.m */; };
+		702B8D5C2760A31C003F0458 /* QQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D5B2760A31C003F0458 /* QQBaseModel.m */; };
 		70926142275EF0150033A009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926141275EF0150033A009 /* AppDelegate.m */; };
-		70926148275EF0150033A009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926147275EF0150033A009 /* ViewController.m */; };
 		7092614B275EF0150033A009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70926149275EF0150033A009 /* Main.storyboard */; };
 		7092614D275EF0170033A009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7092614C275EF0170033A009 /* Assets.xcassets */; };
 		70926150275EF0170033A009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7092614E275EF0170033A009 /* LaunchScreen.storyboard */; };
 		70926153275EF0170033A009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926152275EF0170033A009 /* main.m */; };
-		7092615F275EF2310033A009 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7092615E275EF2310033A009 /* MainViewController.m */; };
 		70926163275EFAAF0033A009 /* QQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926162275EFAAF0033A009 /* QQNavigationController.m */; };
 		70926166275EFCE80033A009 /* QQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926165275EFCE80033A009 /* QQBaseViewController.m */; };
 		7092616A275EFF870033A009 /* QQCommonNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926169275EFF870033A009 /* QQCommonNavigationBar.m */; };
 		7092616E275F043F0033A009 /* QQCommonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7092616D275F043F0033A009 /* QQCommonConfig.m */; };
-		70926175275F10770033A009 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926171275F10770033A009 /* UIColor+Custom.m */; };
-		70926176275F10770033A009 /* UIFont+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926173275F10770033A009 /* UIFont+Custom.m */; };
-		70926179275F11910033A009 /* UIView+RNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926178275F11910033A009 /* UIView+RNAdditions.m */; };
-		7092617C275F13220033A009 /* UIImage+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7092617B275F13220033A009 /* UIImage+ZFTExtend.m */; };
 		70926181275F16EC0033A009 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70926180275F16EC0033A009 /* Resource.bundle */; };
+		709261A4275F5BBE0033A009 /* NSMutableDictionary+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926183275F5BBD0033A009 /* NSMutableDictionary+ZFTExtend.m */; };
+		709261A5275F5BBE0033A009 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926185275F5BBD0033A009 /* MBProgressHUD+Add.m */; };
+		709261A6275F5BBE0033A009 /* UIView+RNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926186275F5BBD0033A009 /* UIView+RNAdditions.m */; };
+		709261A7275F5BBE0033A009 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926187275F5BBD0033A009 /* UIColor+Custom.m */; };
+		709261A8275F5BBE0033A009 /* UIButton+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926189275F5BBD0033A009 /* UIButton+ZFTExtend.m */; };
+		709261A9275F5BBE0033A009 /* UIImage+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7092618A275F5BBD0033A009 /* UIImage+ZFTExtend.m */; };
+		709261AC275F5BBE0033A009 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7092618F275F5BBE0033A009 /* UIImage+ImageEffects.m */; };
+		709261AD275F5BBE0033A009 /* UILabel+ZFTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926195275F5BBE0033A009 /* UILabel+ZFTLabel.m */; };
+		709261AE275F5BBE0033A009 /* NSString+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926196275F5BBE0033A009 /* NSString+ZFTExtend.m */; };
+		709261AF275F5BBE0033A009 /* NSDictionary+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926199275F5BBE0033A009 /* NSDictionary+ZFTExtend.m */; };
+		709261B1275F5BBE0033A009 /* NSMutableSet+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7092619F275F5BBE0033A009 /* NSMutableSet+ZFTExtend.m */; };
+		709261B2275F5BBE0033A009 /* UIView+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */; };
+		709261B3275F5BBE0033A009 /* UIFont+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A2275F5BBE0033A009 /* UIFont+Custom.m */; };
+		709261B4275F5BBE0033A009 /* UIViewController+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */; };
 		E29590513A41E00EC38F17E5 /* libPods-XXM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646BCB54778D7155EA0F1E21 /* libPods-XXM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		646BCB54778D7155EA0F1E21 /* libPods-XXM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702B8D0F2760423F003F0458 /* QQCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCustomButton.h; sourceTree = "<group>"; };
+		702B8D102760423F003F0458 /* QQCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCustomButton.m; sourceTree = "<group>"; };
+		702B8D12276047E2003F0458 /* QQCustomItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCustomItemView.h; sourceTree = "<group>"; };
+		702B8D13276047E2003F0458 /* QQCustomItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCustomItemView.m; sourceTree = "<group>"; };
+		702B8D1527604DDD003F0458 /* QQCustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCustomTabBar.h; sourceTree = "<group>"; };
+		702B8D1627604DDD003F0458 /* QQCustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCustomTabBar.m; sourceTree = "<group>"; };
+		702B8D2127605924003F0458 /* QQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQTabBarController.h; sourceTree = "<group>"; };
+		702B8D2227605924003F0458 /* QQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQTabBarController.m; sourceTree = "<group>"; };
+		702B8D2427605EA2003F0458 /* QQBaseTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBaseTabBar.h; sourceTree = "<group>"; };
+		702B8D2527605EA2003F0458 /* QQBaseTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBaseTabBar.m; sourceTree = "<group>"; };
+		702B8D2827607D71003F0458 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		702B8D2927607D71003F0458 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		702B8D2A27607D71003F0458 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		702B8D2B27607D71003F0458 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		702B8D2C27607D71003F0458 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		702B8D2D27607D71003F0458 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		702B8D2E27607D71003F0458 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		702B8D2F27607D71003F0458 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		702B8D3027607D71003F0458 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		702B8D3127607D71003F0458 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		702B8D402760902E003F0458 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		702B8D412760902E003F0458 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		702B8D4327609037003F0458 /* NetWorkStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkStatus.m; sourceTree = "<group>"; };
+		702B8D4427609037003F0458 /* NetWorkStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkStatus.h; sourceTree = "<group>"; };
+		702B8D4727609167003F0458 /* QQDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQDataManager.h; sourceTree = "<group>"; };
+		702B8D4827609167003F0458 /* QQDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQDataManager.m; sourceTree = "<group>"; };
+		702B8D4A276092B2003F0458 /* QQLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQLoginModel.h; sourceTree = "<group>"; };
+		702B8D4B276092B2003F0458 /* QQLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLoginModel.m; sourceTree = "<group>"; };
+		702B8D502760967A003F0458 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		702B8D512760967A003F0458 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		702B8D53276098F6003F0458 /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
+		702B8D54276098F6003F0458 /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
+		702B8D55276098F6003F0458 /* NSString+Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Password.m"; sourceTree = "<group>"; };
+		702B8D56276098F6003F0458 /* NSString+Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Password.h"; sourceTree = "<group>"; };
+		702B8D5A2760A31C003F0458 /* QQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBaseModel.h; sourceTree = "<group>"; };
+		702B8D5B2760A31C003F0458 /* QQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBaseModel.m; sourceTree = "<group>"; };
 		7092613D275EF0150033A009 /* XXM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70926140275EF0150033A009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70926141275EF0150033A009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		70926146275EF0150033A009 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		70926147275EF0150033A009 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7092614A275EF0150033A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7092614C275EF0170033A009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7092614F275EF0170033A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70926151275EF0170033A009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70926152275EF0170033A009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7092615D275EF2310033A009 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		7092615E275EF2310033A009 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		70926161275EFAAF0033A009 /* QQNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQNavigationController.h; sourceTree = "<group>"; };
 		70926162275EFAAF0033A009 /* QQNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQNavigationController.m; sourceTree = "<group>"; };
 		70926164275EFCE80033A009 /* QQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBaseViewController.h; sourceTree = "<group>"; };
@@ -49,15 +107,35 @@
 		7092616C275F043F0033A009 /* QQCommonConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCommonConfig.h; sourceTree = "<group>"; };
 		7092616D275F043F0033A009 /* QQCommonConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCommonConfig.m; sourceTree = "<group>"; };
 		7092616F275F08ED0033A009 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		70926171275F10770033A009 /* UIColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Custom.m"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIColor+Custom.m"; sourceTree = "<group>"; };
-		70926172275F10770033A009 /* UIFont+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+Custom.h"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIFont+Custom.h"; sourceTree = "<group>"; };
-		70926173275F10770033A009 /* UIFont+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Custom.m"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIFont+Custom.m"; sourceTree = "<group>"; };
-		70926174275F10770033A009 /* UIColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Custom.h"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIColor+Custom.h"; sourceTree = "<group>"; };
-		70926177275F11910033A009 /* UIView+RNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+RNAdditions.h"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIView+RNAdditions.h"; sourceTree = "<group>"; };
-		70926178275F11910033A009 /* UIView+RNAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+RNAdditions.m"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIView+RNAdditions.m"; sourceTree = "<group>"; };
-		7092617A275F13220033A009 /* UIImage+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZFTExtend.h"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIImage+ZFTExtend.h"; sourceTree = "<group>"; };
-		7092617B275F13220033A009 /* UIImage+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZFTExtend.m"; path = "../../../../../company/TYGJV2/TYGJV2/Base/Categories/UIImage+ZFTExtend.m"; sourceTree = "<group>"; };
 		70926180275F16EC0033A009 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = ../../../../company/TYGJV2/TYGJV2/Resources/Resource.bundle; sourceTree = "<group>"; };
+		70926183275F5BBD0033A009 /* NSMutableDictionary+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZFTExtend.m"; sourceTree = "<group>"; };
+		70926184275F5BBD0033A009 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		70926185275F5BBD0033A009 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		70926186275F5BBD0033A009 /* UIView+RNAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RNAdditions.m"; sourceTree = "<group>"; };
+		70926187275F5BBD0033A009 /* UIColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Custom.m"; sourceTree = "<group>"; };
+		70926188275F5BBD0033A009 /* UIImage+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZFTExtend.h"; sourceTree = "<group>"; };
+		70926189275F5BBD0033A009 /* UIButton+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZFTExtend.m"; sourceTree = "<group>"; };
+		7092618A275F5BBD0033A009 /* UIImage+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZFTExtend.m"; sourceTree = "<group>"; };
+		7092618B275F5BBE0033A009 /* UIButton+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZFTExtend.h"; sourceTree = "<group>"; };
+		7092618C275F5BBE0033A009 /* UILabel+ZFTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZFTLabel.h"; sourceTree = "<group>"; };
+		7092618F275F5BBE0033A009 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		70926190275F5BBE0033A009 /* NSDictionary+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZFTExtend.h"; sourceTree = "<group>"; };
+		70926191275F5BBE0033A009 /* UIView+RNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RNAdditions.h"; sourceTree = "<group>"; };
+		70926193275F5BBE0033A009 /* NSMutableDictionary+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZFTExtend.h"; sourceTree = "<group>"; };
+		70926194275F5BBE0033A009 /* UIColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Custom.h"; sourceTree = "<group>"; };
+		70926195275F5BBE0033A009 /* UILabel+ZFTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZFTLabel.m"; sourceTree = "<group>"; };
+		70926196275F5BBE0033A009 /* NSString+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZFTExtend.m"; sourceTree = "<group>"; };
+		70926197275F5BBE0033A009 /* NSString+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZFTExtend.h"; sourceTree = "<group>"; };
+		70926198275F5BBE0033A009 /* NSMutableSet+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+ZFTExtend.h"; sourceTree = "<group>"; };
+		70926199275F5BBE0033A009 /* NSDictionary+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZFTExtend.m"; sourceTree = "<group>"; };
+		7092619A275F5BBE0033A009 /* UIView+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZFTExtend.h"; sourceTree = "<group>"; };
+		7092619B275F5BBE0033A009 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		7092619D275F5BBE0033A009 /* UIViewController+ZFTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFTExtend.h"; sourceTree = "<group>"; };
+		7092619F275F5BBE0033A009 /* NSMutableSet+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+ZFTExtend.m"; sourceTree = "<group>"; };
+		709261A0275F5BBE0033A009 /* UIFont+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Custom.h"; sourceTree = "<group>"; };
+		709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZFTExtend.m"; sourceTree = "<group>"; };
+		709261A2275F5BBE0033A009 /* UIFont+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Custom.m"; sourceTree = "<group>"; };
+		709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFTExtend.m"; sourceTree = "<group>"; };
 		787553C2B70CF936E2944827 /* Pods-XXM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXM.release.xcconfig"; path = "Target Support Files/Pods-XXM/Pods-XXM.release.xcconfig"; sourceTree = "<group>"; };
 		8F8D00F49C1D5BF1F79E76C9 /* Pods-XXM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXM.debug.xcconfig"; path = "Target Support Files/Pods-XXM/Pods-XXM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +152,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		702B8D2727607D71003F0458 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				702B8D2827607D71003F0458 /* FourViewController.m */,
+				702B8D2927607D71003F0458 /* SecondViewController.h */,
+				702B8D2A27607D71003F0458 /* ThreeViewController.m */,
+				702B8D2C27607D71003F0458 /* MainViewController.m */,
+				702B8D2D27607D71003F0458 /* FourViewController.h */,
+				702B8D2E27607D71003F0458 /* ThreeViewController.h */,
+				702B8D2F27607D71003F0458 /* SecondViewController.m */,
+				702B8D3027607D71003F0458 /* MainViewController.h */,
+				702B8D3127607D71003F0458 /* ViewController.h */,
+				702B8D2B27607D71003F0458 /* ViewController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		702B8D3727607D8F003F0458 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		702B8D3827607E41003F0458 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				702B8D502760967A003F0458 /* HttpTool.h */,
+				702B8D512760967A003F0458 /* HttpTool.m */,
+				702B8D4427609037003F0458 /* NetWorkStatus.h */,
+				702B8D4327609037003F0458 /* NetWorkStatus.m */,
+				702B8D3F2760902E003F0458 /* Reachability */,
+				702B8D4727609167003F0458 /* QQDataManager.h */,
+				702B8D4827609167003F0458 /* QQDataManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		702B8D3F2760902E003F0458 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				702B8D402760902E003F0458 /* Reachability.m */,
+				702B8D412760902E003F0458 /* Reachability.h */,
+			);
+			name = Reachability;
+			path = "../../../../../../Downloads/HttpTool-master/Demo/BestPracticesProject/Tools/HttpToll/Lib/Reachability";
+			sourceTree = "<group>";
+		};
 		70926134275EF0150033A009 = {
 			isa = PBXGroup;
 			children = (
@@ -111,11 +237,9 @@
 		7092615A275EF1FB0033A009 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				702B8D2727607D71003F0458 /* main */,
 				70926160275EFA6D0033A009 /* Base */,
-				7092615D275EF2310033A009 /* MainViewController.h */,
-				7092615E275EF2310033A009 /* MainViewController.m */,
-				70926146275EF0150033A009 /* ViewController.h */,
-				70926147275EF0150033A009 /* ViewController.m */,
+				702B8D3727607D8F003F0458 /* Login */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +255,10 @@
 		7092615C275EF1FB0033A009 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				702B8D5A2760A31C003F0458 /* QQBaseModel.h */,
+				702B8D5B2760A31C003F0458 /* QQBaseModel.m */,
+				702B8D4A276092B2003F0458 /* QQLoginModel.h */,
+				702B8D4B276092B2003F0458 /* QQLoginModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -142,6 +270,8 @@
 				70926162275EFAAF0033A009 /* QQNavigationController.m */,
 				70926164275EFCE80033A009 /* QQBaseViewController.h */,
 				70926165275EFCE80033A009 /* QQBaseViewController.m */,
+				702B8D2127605924003F0458 /* QQTabBarController.h */,
+				702B8D2227605924003F0458 /* QQTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -151,6 +281,14 @@
 			children = (
 				70926168275EFF870033A009 /* QQCommonNavigationBar.h */,
 				70926169275EFF870033A009 /* QQCommonNavigationBar.m */,
+				702B8D0F2760423F003F0458 /* QQCustomButton.h */,
+				702B8D102760423F003F0458 /* QQCustomButton.m */,
+				702B8D12276047E2003F0458 /* QQCustomItemView.h */,
+				702B8D13276047E2003F0458 /* QQCustomItemView.m */,
+				702B8D1527604DDD003F0458 /* QQCustomTabBar.h */,
+				702B8D1627604DDD003F0458 /* QQCustomTabBar.m */,
+				702B8D2427605EA2003F0458 /* QQBaseTabBar.h */,
+				702B8D2527605EA2003F0458 /* QQBaseTabBar.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -158,6 +296,7 @@
 		7092616B275F041A0033A009 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				702B8D3827607E41003F0458 /* Network */,
 				70926170275F10580033A009 /* Categories */,
 				7092616F275F08ED0033A009 /* PrefixHeader.pch */,
 				70926140275EF0150033A009 /* AppDelegate.h */,
@@ -171,14 +310,38 @@
 		70926170275F10580033A009 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				7092617A275F13220033A009 /* UIImage+ZFTExtend.h */,
-				7092617B275F13220033A009 /* UIImage+ZFTExtend.m */,
-				70926174275F10770033A009 /* UIColor+Custom.h */,
-				70926171275F10770033A009 /* UIColor+Custom.m */,
-				70926172275F10770033A009 /* UIFont+Custom.h */,
-				70926173275F10770033A009 /* UIFont+Custom.m */,
-				70926177275F11910033A009 /* UIView+RNAdditions.h */,
-				70926178275F11910033A009 /* UIView+RNAdditions.m */,
+				702B8D54276098F6003F0458 /* NSDictionary+Category.h */,
+				702B8D53276098F6003F0458 /* NSDictionary+Category.m */,
+				702B8D56276098F6003F0458 /* NSString+Password.h */,
+				702B8D55276098F6003F0458 /* NSString+Password.m */,
+				7092619B275F5BBE0033A009 /* MBProgressHUD+Add.h */,
+				70926185275F5BBD0033A009 /* MBProgressHUD+Add.m */,
+				70926190275F5BBE0033A009 /* NSDictionary+ZFTExtend.h */,
+				70926199275F5BBE0033A009 /* NSDictionary+ZFTExtend.m */,
+				70926193275F5BBE0033A009 /* NSMutableDictionary+ZFTExtend.h */,
+				70926183275F5BBD0033A009 /* NSMutableDictionary+ZFTExtend.m */,
+				70926198275F5BBE0033A009 /* NSMutableSet+ZFTExtend.h */,
+				7092619F275F5BBE0033A009 /* NSMutableSet+ZFTExtend.m */,
+				70926197275F5BBE0033A009 /* NSString+ZFTExtend.h */,
+				70926196275F5BBE0033A009 /* NSString+ZFTExtend.m */,
+				7092618B275F5BBE0033A009 /* UIButton+ZFTExtend.h */,
+				70926189275F5BBD0033A009 /* UIButton+ZFTExtend.m */,
+				70926194275F5BBE0033A009 /* UIColor+Custom.h */,
+				70926187275F5BBD0033A009 /* UIColor+Custom.m */,
+				709261A0275F5BBE0033A009 /* UIFont+Custom.h */,
+				709261A2275F5BBE0033A009 /* UIFont+Custom.m */,
+				70926184275F5BBD0033A009 /* UIImage+ImageEffects.h */,
+				7092618F275F5BBE0033A009 /* UIImage+ImageEffects.m */,
+				70926188275F5BBD0033A009 /* UIImage+ZFTExtend.h */,
+				7092618A275F5BBD0033A009 /* UIImage+ZFTExtend.m */,
+				7092618C275F5BBE0033A009 /* UILabel+ZFTLabel.h */,
+				70926195275F5BBE0033A009 /* UILabel+ZFTLabel.m */,
+				70926191275F5BBE0033A009 /* UIView+RNAdditions.h */,
+				70926186275F5BBD0033A009 /* UIView+RNAdditions.m */,
+				7092619A275F5BBE0033A009 /* UIView+ZFTExtend.h */,
+				709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */,
+				7092619D275F5BBE0033A009 /* UIViewController+ZFTExtend.h */,
+				709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -306,18 +469,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70926148275EF0150033A009 /* ViewController.m in Sources */,
-				70926176275F10770033A009 /* UIFont+Custom.m in Sources */,
+				702B8D5927609D79003F0458 /* NetWorkStatus.m in Sources */,
+				702B8D58276098F6003F0458 /* NSString+Password.m in Sources */,
+				702B8D3627607D71003F0458 /* SecondViewController.m in Sources */,
+				702B8D4927609167003F0458 /* QQDataManager.m in Sources */,
+				702B8D4C276092B2003F0458 /* QQLoginModel.m in Sources */,
+				702B8D1127604240003F0458 /* QQCustomButton.m in Sources */,
+				709261A4275F5BBE0033A009 /* NSMutableDictionary+ZFTExtend.m in Sources */,
+				702B8D57276098F6003F0458 /* NSDictionary+Category.m in Sources */,
 				70926142275EF0150033A009 /* AppDelegate.m in Sources */,
+				702B8D1727604DDD003F0458 /* QQCustomTabBar.m in Sources */,
 				70926153275EF0170033A009 /* main.m in Sources */,
-				70926179275F11910033A009 /* UIView+RNAdditions.m in Sources */,
+				709261AF275F5BBE0033A009 /* NSDictionary+ZFTExtend.m in Sources */,
+				709261A6275F5BBE0033A009 /* UIView+RNAdditions.m in Sources */,
+				702B8D2627605EA2003F0458 /* QQBaseTabBar.m in Sources */,
+				709261AE275F5BBE0033A009 /* NSString+ZFTExtend.m in Sources */,
+				709261A8275F5BBE0033A009 /* UIButton+ZFTExtend.m in Sources */,
+				702B8D3227607D71003F0458 /* FourViewController.m in Sources */,
+				702B8D2327605924003F0458 /* QQTabBarController.m in Sources */,
+				709261A9275F5BBE0033A009 /* UIImage+ZFTExtend.m in Sources */,
+				709261B4275F5BBE0033A009 /* UIViewController+ZFTExtend.m in Sources */,
+				702B8D3527607D71003F0458 /* MainViewController.m in Sources */,
+				702B8D3427607D71003F0458 /* ViewController.m in Sources */,
+				702B8D522760967A003F0458 /* HttpTool.m in Sources */,
 				70926163275EFAAF0033A009 /* QQNavigationController.m in Sources */,
-				7092617C275F13220033A009 /* UIImage+ZFTExtend.m in Sources */,
+				709261B2275F5BBE0033A009 /* UIView+ZFTExtend.m in Sources */,
 				7092616E275F043F0033A009 /* QQCommonConfig.m in Sources */,
-				7092615F275EF2310033A009 /* MainViewController.m in Sources */,
+				709261AD275F5BBE0033A009 /* UILabel+ZFTLabel.m in Sources */,
+				709261B1275F5BBE0033A009 /* NSMutableSet+ZFTExtend.m in Sources */,
+				702B8D5C2760A31C003F0458 /* QQBaseModel.m in Sources */,
+				709261A5275F5BBE0033A009 /* MBProgressHUD+Add.m in Sources */,
+				702B8D422760902E003F0458 /* Reachability.m in Sources */,
 				7092616A275EFF870033A009 /* QQCommonNavigationBar.m in Sources */,
-				70926175275F10770033A009 /* UIColor+Custom.m in Sources */,
+				709261A7275F5BBE0033A009 /* UIColor+Custom.m in Sources */,
+				709261B3275F5BBE0033A009 /* UIFont+Custom.m in Sources */,
 				70926166275EFCE80033A009 /* QQBaseViewController.m in Sources */,
+				702B8D3327607D71003F0458 /* ThreeViewController.m in Sources */,
+				702B8D14276047E2003F0458 /* QQCustomItemView.m in Sources */,
+				709261AC275F5BBE0033A009 /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

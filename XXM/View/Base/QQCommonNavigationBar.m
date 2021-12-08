@@ -39,14 +39,9 @@
             make.top.mas_equalTo(self).mas_offset(kStatusBarHeight);
             make.left.right.mas_equalTo(self);
         }];
-    
     }
     return self;
 }
-
-
-
-
 - (void)addBackItemWithBlock:(void (^)(QQCommonNavigationBar *cusBar,UIButton *btn,UIViewController *viewC))block{
     [self addItemWithLeft:YES isImg:YES content:@"navigationBar_backV2" block:block];
 }
@@ -116,11 +111,11 @@
     }];
 }
 - (void)leftClick{
-    self.onLeftTap(self,self.leftButton,self.viewController);
+    self.onLeftTap(self,self.leftButton,self.controller);
 }
 
 -(void)rightClick{
-    
+    self.onRightTap(self, self.rightButton, self.controller);
 }
 
 /*

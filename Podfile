@@ -5,4 +5,6 @@ pod 'AFNetworking'
 pod 'Masonry'
 pod 'SDWebImage'
 pod 'MyLayout'
+pod 'MBProgressHUD'
+pod 'MJExtension'
 end

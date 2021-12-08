@@ -71,15 +71,15 @@
 {
     // Check pre-conditions.
     if (self.size.width < 1 || self.size.height < 1) {
-        ZFTLog (@"*** error: invalid size: (%.2f x %.2f). Both dimensions must be >= 1: %@", self.size.width, self.size.height, self);
+        NSLog(@"*** error: invalid size: (%.2f x %.2f). Both dimensions must be >= 1: %@", self.size.width, self.size.height, self);
         return nil;
     }
     if (!self.CGImage) {
-        ZFTLog (@"*** error: image must be backed by a CGImage: %@", self);
+        NSLog (@"*** error: image must be backed by a CGImage: %@", self);
         return nil;
     }
     if (maskImage && !maskImage.CGImage) {
-        ZFTLog (@"*** error: maskImage must be backed by a CGImage: %@", maskImage);
+        NSLog (@"*** error: maskImage must be backed by a CGImage: %@", maskImage);
         return nil;
     }
 
