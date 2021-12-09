@@ -13,6 +13,8 @@
 #import "UIView+RNAdditions.h"
 #import "Masonry.h"
 #import "UIImage+ZFTExtend.h"
+#import "QQAppUrlConfig.h"
+#import "QQAccountManager.h"
 
 
 // Include any system framework and library headers here that should be included in all compilation units.

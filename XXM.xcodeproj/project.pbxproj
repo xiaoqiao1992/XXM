@@ -17,13 +17,10 @@
 		702B8D3427607D71003F0458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2B27607D71003F0458 /* ViewController.m */; };
 		702B8D3527607D71003F0458 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2C27607D71003F0458 /* MainViewController.m */; };
 		702B8D3627607D71003F0458 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D2F27607D71003F0458 /* SecondViewController.m */; };
-		702B8D422760902E003F0458 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D402760902E003F0458 /* Reachability.m */; };
 		702B8D4927609167003F0458 /* QQDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D4827609167003F0458 /* QQDataManager.m */; };
 		702B8D4C276092B2003F0458 /* QQLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D4B276092B2003F0458 /* QQLoginModel.m */; };
-		702B8D522760967A003F0458 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D512760967A003F0458 /* HttpTool.m */; };
 		702B8D57276098F6003F0458 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D53276098F6003F0458 /* NSDictionary+Category.m */; };
 		702B8D58276098F6003F0458 /* NSString+Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D55276098F6003F0458 /* NSString+Password.m */; };
-		702B8D5927609D79003F0458 /* NetWorkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D4327609037003F0458 /* NetWorkStatus.m */; };
 		702B8D5C2760A31C003F0458 /* QQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D5B2760A31C003F0458 /* QQBaseModel.m */; };
 		70926142275EF0150033A009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70926141275EF0150033A009 /* AppDelegate.m */; };
 		7092614B275EF0150033A009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70926149275EF0150033A009 /* Main.storyboard */; };
@@ -49,6 +46,11 @@
 		709261B2275F5BBE0033A009 /* UIView+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */; };
 		709261B3275F5BBE0033A009 /* UIFont+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A2275F5BBE0033A009 /* UIFont+Custom.m */; };
 		709261B4275F5BBE0033A009 /* UIViewController+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */; };
+		70D0FF2227618FA60043B284 /* QQNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF2027618FA50043B284 /* QQNetwork.m */; };
+		70D0FF25276192090043B284 /* QQCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF24276192090043B284 /* QQCommonTools.m */; };
+		70D0FF28276195C40043B284 /* QQAppUrlConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF27276195C40043B284 /* QQAppUrlConfig.m */; };
+		70D0FF2C276198180043B284 /* QQAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF2B276198180043B284 /* QQAccountManager.m */; };
+		70D0FF2F2761D20C0043B284 /* QQAccountMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF2E2761D20C0043B284 /* QQAccountMessageModel.m */; };
 		E29590513A41E00EC38F17E5 /* libPods-XXM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646BCB54778D7155EA0F1E21 /* libPods-XXM.a */; };
 /* End PBXBuildFile section */
 
@@ -74,16 +76,10 @@
 		702B8D2F27607D71003F0458 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		702B8D3027607D71003F0458 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		702B8D3127607D71003F0458 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		702B8D402760902E003F0458 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		702B8D412760902E003F0458 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		702B8D4327609037003F0458 /* NetWorkStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkStatus.m; sourceTree = "<group>"; };
-		702B8D4427609037003F0458 /* NetWorkStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkStatus.h; sourceTree = "<group>"; };
 		702B8D4727609167003F0458 /* QQDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQDataManager.h; sourceTree = "<group>"; };
 		702B8D4827609167003F0458 /* QQDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQDataManager.m; sourceTree = "<group>"; };
 		702B8D4A276092B2003F0458 /* QQLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQLoginModel.h; sourceTree = "<group>"; };
 		702B8D4B276092B2003F0458 /* QQLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQLoginModel.m; sourceTree = "<group>"; };
-		702B8D502760967A003F0458 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
-		702B8D512760967A003F0458 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		702B8D53276098F6003F0458 /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
 		702B8D54276098F6003F0458 /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
 		702B8D55276098F6003F0458 /* NSString+Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Password.m"; sourceTree = "<group>"; };
@@ -136,6 +132,16 @@
 		709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZFTExtend.m"; sourceTree = "<group>"; };
 		709261A2275F5BBE0033A009 /* UIFont+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Custom.m"; sourceTree = "<group>"; };
 		709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFTExtend.m"; sourceTree = "<group>"; };
+		70D0FF2027618FA50043B284 /* QQNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNetwork.m; sourceTree = "<group>"; };
+		70D0FF2127618FA60043B284 /* QQNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNetwork.h; sourceTree = "<group>"; };
+		70D0FF23276192090043B284 /* QQCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCommonTools.h; sourceTree = "<group>"; };
+		70D0FF24276192090043B284 /* QQCommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCommonTools.m; sourceTree = "<group>"; };
+		70D0FF26276195C40043B284 /* QQAppUrlConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQAppUrlConfig.h; sourceTree = "<group>"; };
+		70D0FF27276195C40043B284 /* QQAppUrlConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAppUrlConfig.m; sourceTree = "<group>"; };
+		70D0FF2A276198180043B284 /* QQAccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQAccountManager.h; sourceTree = "<group>"; };
+		70D0FF2B276198180043B284 /* QQAccountManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAccountManager.m; sourceTree = "<group>"; };
+		70D0FF2D2761D20C0043B284 /* QQAccountMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQAccountMessageModel.h; sourceTree = "<group>"; };
+		70D0FF2E2761D20C0043B284 /* QQAccountMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQAccountMessageModel.m; sourceTree = "<group>"; };
 		787553C2B70CF936E2944827 /* Pods-XXM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXM.release.xcconfig"; path = "Target Support Files/Pods-XXM/Pods-XXM.release.xcconfig"; sourceTree = "<group>"; };
 		8F8D00F49C1D5BF1F79E76C9 /* Pods-XXM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXM.debug.xcconfig"; path = "Target Support Files/Pods-XXM/Pods-XXM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,25 +185,12 @@
 		702B8D3827607E41003F0458 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				702B8D502760967A003F0458 /* HttpTool.h */,
-				702B8D512760967A003F0458 /* HttpTool.m */,
-				702B8D4427609037003F0458 /* NetWorkStatus.h */,
-				702B8D4327609037003F0458 /* NetWorkStatus.m */,
-				702B8D3F2760902E003F0458 /* Reachability */,
+				70D0FF2127618FA60043B284 /* QQNetwork.h */,
+				70D0FF2027618FA50043B284 /* QQNetwork.m */,
 				702B8D4727609167003F0458 /* QQDataManager.h */,
 				702B8D4827609167003F0458 /* QQDataManager.m */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		702B8D3F2760902E003F0458 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				702B8D402760902E003F0458 /* Reachability.m */,
-				702B8D412760902E003F0458 /* Reachability.h */,
-			);
-			name = Reachability;
-			path = "../../../../../../Downloads/HttpTool-master/Demo/BestPracticesProject/Tools/HttpToll/Lib/Reachability";
 			sourceTree = "<group>";
 		};
 		70926134275EF0150033A009 = {
@@ -259,6 +252,8 @@
 				702B8D5B2760A31C003F0458 /* QQBaseModel.m */,
 				702B8D4A276092B2003F0458 /* QQLoginModel.h */,
 				702B8D4B276092B2003F0458 /* QQLoginModel.m */,
+				70D0FF2D2761D20C0043B284 /* QQAccountMessageModel.h */,
+				70D0FF2E2761D20C0043B284 /* QQAccountMessageModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +291,7 @@
 		7092616B275F041A0033A009 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				70D0FF29276197FD0043B284 /* AccountMessage */,
 				702B8D3827607E41003F0458 /* Network */,
 				70926170275F10580033A009 /* Categories */,
 				7092616F275F08ED0033A009 /* PrefixHeader.pch */,
@@ -303,6 +299,10 @@
 				70926141275EF0150033A009 /* AppDelegate.m */,
 				7092616C275F043F0033A009 /* QQCommonConfig.h */,
 				7092616D275F043F0033A009 /* QQCommonConfig.m */,
+				70D0FF23276192090043B284 /* QQCommonTools.h */,
+				70D0FF24276192090043B284 /* QQCommonTools.m */,
+				70D0FF26276195C40043B284 /* QQAppUrlConfig.h */,
+				70D0FF27276195C40043B284 /* QQAppUrlConfig.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -353,6 +353,15 @@
 				7092614C275EF0170033A009 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		70D0FF29276197FD0043B284 /* AccountMessage */ = {
+			isa = PBXGroup;
+			children = (
+				70D0FF2A276198180043B284 /* QQAccountManager.h */,
+				70D0FF2B276198180043B284 /* QQAccountManager.m */,
+			);
+			path = AccountMessage;
 			sourceTree = "<group>";
 		};
 		C109BBF5E32D50E8EB74B194 /* Frameworks */ = {
@@ -469,7 +478,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				702B8D5927609D79003F0458 /* NetWorkStatus.m in Sources */,
 				702B8D58276098F6003F0458 /* NSString+Password.m in Sources */,
 				702B8D3627607D71003F0458 /* SecondViewController.m in Sources */,
 				702B8D4927609167003F0458 /* QQDataManager.m in Sources */,
@@ -477,12 +485,14 @@
 				702B8D1127604240003F0458 /* QQCustomButton.m in Sources */,
 				709261A4275F5BBE0033A009 /* NSMutableDictionary+ZFTExtend.m in Sources */,
 				702B8D57276098F6003F0458 /* NSDictionary+Category.m in Sources */,
+				70D0FF28276195C40043B284 /* QQAppUrlConfig.m in Sources */,
 				70926142275EF0150033A009 /* AppDelegate.m in Sources */,
 				702B8D1727604DDD003F0458 /* QQCustomTabBar.m in Sources */,
 				70926153275EF0170033A009 /* main.m in Sources */,
 				709261AF275F5BBE0033A009 /* NSDictionary+ZFTExtend.m in Sources */,
 				709261A6275F5BBE0033A009 /* UIView+RNAdditions.m in Sources */,
 				702B8D2627605EA2003F0458 /* QQBaseTabBar.m in Sources */,
+				70D0FF2227618FA60043B284 /* QQNetwork.m in Sources */,
 				709261AE275F5BBE0033A009 /* NSString+ZFTExtend.m in Sources */,
 				709261A8275F5BBE0033A009 /* UIButton+ZFTExtend.m in Sources */,
 				702B8D3227607D71003F0458 /* FourViewController.m in Sources */,
@@ -491,22 +501,23 @@
 				709261B4275F5BBE0033A009 /* UIViewController+ZFTExtend.m in Sources */,
 				702B8D3527607D71003F0458 /* MainViewController.m in Sources */,
 				702B8D3427607D71003F0458 /* ViewController.m in Sources */,
-				702B8D522760967A003F0458 /* HttpTool.m in Sources */,
 				70926163275EFAAF0033A009 /* QQNavigationController.m in Sources */,
 				709261B2275F5BBE0033A009 /* UIView+ZFTExtend.m in Sources */,
 				7092616E275F043F0033A009 /* QQCommonConfig.m in Sources */,
 				709261AD275F5BBE0033A009 /* UILabel+ZFTLabel.m in Sources */,
 				709261B1275F5BBE0033A009 /* NSMutableSet+ZFTExtend.m in Sources */,
+				70D0FF25276192090043B284 /* QQCommonTools.m in Sources */,
 				702B8D5C2760A31C003F0458 /* QQBaseModel.m in Sources */,
 				709261A5275F5BBE0033A009 /* MBProgressHUD+Add.m in Sources */,
-				702B8D422760902E003F0458 /* Reachability.m in Sources */,
 				7092616A275EFF870033A009 /* QQCommonNavigationBar.m in Sources */,
 				709261A7275F5BBE0033A009 /* UIColor+Custom.m in Sources */,
 				709261B3275F5BBE0033A009 /* UIFont+Custom.m in Sources */,
 				70926166275EFCE80033A009 /* QQBaseViewController.m in Sources */,
+				70D0FF2C276198180043B284 /* QQAccountManager.m in Sources */,
 				702B8D3327607D71003F0458 /* ThreeViewController.m in Sources */,
 				702B8D14276047E2003F0458 /* QQCustomItemView.m in Sources */,
 				709261AC275F5BBE0033A009 /* UIImage+ImageEffects.m in Sources */,
+				70D0FF2F2761D20C0043B284 /* QQAccountMessageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

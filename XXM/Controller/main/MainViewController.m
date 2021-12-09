@@ -18,8 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor grayColor];
-    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(100, 300, 50, 50)];
-    button.backgroundColor = [UIColor redColor];
+    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(150, 300, 100, 100)];
+    [button setTitle:@"push" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor orangeColor];
     [button addTarget:self action:@selector(didClickBtn) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     

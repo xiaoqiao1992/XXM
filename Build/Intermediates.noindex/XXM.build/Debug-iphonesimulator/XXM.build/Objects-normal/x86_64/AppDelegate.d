@@ -34,6 +34,10 @@ dependencies: /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/AppDelegate.m \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/Masonry/MASLayoutConstraint.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/Masonry/NSLayoutConstraint+MASDebugAdditions.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/Categories/UIImage+ZFTExtend.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/QQAppUrlConfig.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/AccountMessage/QQAccountManager.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQLoginModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQBaseModel.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/AppDelegate.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/main/MainViewController.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/Base/QQBaseViewController.h \

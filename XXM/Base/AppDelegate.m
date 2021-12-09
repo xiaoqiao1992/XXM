@@ -23,7 +23,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     QQTabBarController * rootVC = [[QQTabBarController alloc] init];
     self.window.rootViewController = rootVC;//[[QQNavigationController alloc] initWithRootViewController:rootVC];
-    [self.window makeKeyAndVisible];
+    [self.window makeKeyAndVisible];    
     return YES;
 }
 

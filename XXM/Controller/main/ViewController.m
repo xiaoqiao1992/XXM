@@ -6,10 +6,13 @@
 //
 
 #import "ViewController.h"
-#import "HttpTool.h"
-#import "QQLoginModel.h"
-#import "QQLoginModel.h"
+#import "QQAccountMessageModel.h"
 #import "MJExtension.h"
+#import "QQNetwork.h"
+#import "AFHTTPSessionManager.h"
+
+
+
 @interface ViewController ()
 
 @end
@@ -20,36 +23,54 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    [self initTopNavView];
     
-    NSDictionary * dict = @{
-        @"username":@"13112819921",
-        @"password":@"123456",
-//        @"repassword":@"123456"
-    };
+    UIButton * loginBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [loginBtn setTitle:@"登录按钮" forState:UIControlStateNormal];
+    loginBtn.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:loginBtn];
+    [loginBtn addTarget:self action:@selector(onClickLoginBtn) forControlEvents:UIControlEventTouchUpInside];
     
-    
-    [HttpTool postWithURL:@"https://www.wanandroid.com/user/login" params:dict success:^(id json) {
-        QQLoginModel *model = [QQLoginModel mj_objectWithKeyValues:json];
-        NSLog(@"请求成功");
-        NSLog(@"%@",model);
-    } failure:^(NSError *error) {
-        NSLog(@"请求失败");
-    }];
-    
-    
-    
-    
-    
-    
-    
-    
+ 
+    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 100, 100)];
+    btn.backgroundColor = [UIColor orangeColor];
+    [btn setTitle:@"获取信息" forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(didClickBtn) forControlEvents:UIControlEventTouchUpInside];
+  
+}
+
+-(void)initTopNavView{
     self.topNavView = [[QQCommonNavigationBar alloc] initWithTitle:@"二级页面" controller:self];
-    self.topNavView.backgroundColor = kRed_Color10;
     __weak ViewController * weakSelf = self;
     [self.topNavView addItemWithLeft:YES isImg:YES content:@"navigationBar_backV2" block:^(QQCommonNavigationBar * _Nonnull cusBar, UIButton * _Nonnull btn, UIViewController * _Nonnull viewC) {
         [weakSelf.navigationController popViewControllerAnimated:YES];
     }];
 }
 
+-(void)onClickLoginBtn{
+    NSDictionary * dict = @{
+        @"username":@"16816816816",
+        @"password":@"111111",
+    };
+    [[QQNetwork Network] dataWithUrl:@"/user/login" Host:nil param:dict method:QQHttpRequestMethodPost modelClassName:QQAccountMessageModel.self onProgress:nil onComplete:^(QQAccountMessageModel * data) {
+        QQLoginModel * model = [QQLoginModel new];
+        model = data.data;
+        NSData *data2 = [NSKeyedArchiver archivedDataWithRootObject:model];
+        NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+        [user setObject:data2 forKey:@"QQLoginModel"];
+        [user synchronize];
+
+    } onFault:^(id error) {
+        NSLog(@"%@",error);
+    }];
+}
+
+-(void)didClickBtn{
+    NSUserDefaults *userMessage = [NSUserDefaults standardUserDefaults];
+    NSDate * data = [userMessage objectForKey:@"QQLoginModel"];
+    [QQAccountManager share].accountModel = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    NSLog(@"%@",[QQAccountManager share].accountModel);
+}
 
 @end
