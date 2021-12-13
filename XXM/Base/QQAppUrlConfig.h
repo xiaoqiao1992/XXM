@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 extern BOOL const kIsAppRelease;//当前是否正式环境
 #pragma mark - 域名
 extern NSString * const QQAppURL;//app接口域名
+extern NSString * const QQMainBannerUrl;//首页banner
 
 @end
 

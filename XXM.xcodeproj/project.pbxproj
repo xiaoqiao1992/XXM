@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7009CDA32766EFEC00E2DF3E /* QQMainBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009CDA22766EFEC00E2DF3E /* QQMainBannerModel.m */; };
+		7009CDA72766F19900E2DF3E /* QQBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009CDA62766F19900E2DF3E /* QQBannerModel.m */; };
+		7009CDAB27671DFA00E2DF3E /* QQBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009CDAA27671DFA00E2DF3E /* QQBannerView.m */; };
+		7009CDAE276724C400E2DF3E /* QQBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009CDAD276724C400E2DF3E /* QQBannerCell.m */; };
+		7009CDB12767256E00E2DF3E /* QQBannerFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009CDB02767256E00E2DF3E /* QQBannerFooter.m */; };
 		702B8D1127604240003F0458 /* QQCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D102760423F003F0458 /* QQCustomButton.m */; };
 		702B8D14276047E2003F0458 /* QQCustomItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D13276047E2003F0458 /* QQCustomItemView.m */; };
 		702B8D1727604DDD003F0458 /* QQCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 702B8D1627604DDD003F0458 /* QQCustomTabBar.m */; };
@@ -56,6 +61,16 @@
 
 /* Begin PBXFileReference section */
 		646BCB54778D7155EA0F1E21 /* libPods-XXM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7009CDA12766EFEC00E2DF3E /* QQMainBannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQMainBannerModel.h; sourceTree = "<group>"; };
+		7009CDA22766EFEC00E2DF3E /* QQMainBannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMainBannerModel.m; sourceTree = "<group>"; };
+		7009CDA52766F19900E2DF3E /* QQBannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBannerModel.h; sourceTree = "<group>"; };
+		7009CDA62766F19900E2DF3E /* QQBannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBannerModel.m; sourceTree = "<group>"; };
+		7009CDA927671DFA00E2DF3E /* QQBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBannerView.h; sourceTree = "<group>"; };
+		7009CDAA27671DFA00E2DF3E /* QQBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBannerView.m; sourceTree = "<group>"; };
+		7009CDAC276724C400E2DF3E /* QQBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBannerCell.h; sourceTree = "<group>"; };
+		7009CDAD276724C400E2DF3E /* QQBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBannerCell.m; sourceTree = "<group>"; };
+		7009CDAF2767256E00E2DF3E /* QQBannerFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBannerFooter.h; sourceTree = "<group>"; };
+		7009CDB02767256E00E2DF3E /* QQBannerFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBannerFooter.m; sourceTree = "<group>"; };
 		702B8D0F2760423F003F0458 /* QQCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCustomButton.h; sourceTree = "<group>"; };
 		702B8D102760423F003F0458 /* QQCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCustomButton.m; sourceTree = "<group>"; };
 		702B8D12276047E2003F0458 /* QQCustomItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCustomItemView.h; sourceTree = "<group>"; };
@@ -158,17 +173,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7009CDA42766F00600E2DF3E /* MainModel */ = {
+			isa = PBXGroup;
+			children = (
+				7009CDA12766EFEC00E2DF3E /* QQMainBannerModel.h */,
+				7009CDA22766EFEC00E2DF3E /* QQMainBannerModel.m */,
+				7009CDA52766F19900E2DF3E /* QQBannerModel.h */,
+				7009CDA62766F19900E2DF3E /* QQBannerModel.m */,
+			);
+			path = MainModel;
+			sourceTree = "<group>";
+		};
+		7009CDA827671DD400E2DF3E /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				7009CDA927671DFA00E2DF3E /* QQBannerView.h */,
+				7009CDAA27671DFA00E2DF3E /* QQBannerView.m */,
+				7009CDAC276724C400E2DF3E /* QQBannerCell.h */,
+				7009CDAD276724C400E2DF3E /* QQBannerCell.m */,
+				7009CDAF2767256E00E2DF3E /* QQBannerFooter.h */,
+				7009CDB02767256E00E2DF3E /* QQBannerFooter.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
 		702B8D2727607D71003F0458 /* main */ = {
 			isa = PBXGroup;
 			children = (
 				702B8D2827607D71003F0458 /* FourViewController.m */,
 				702B8D2927607D71003F0458 /* SecondViewController.h */,
 				702B8D2A27607D71003F0458 /* ThreeViewController.m */,
-				702B8D2C27607D71003F0458 /* MainViewController.m */,
 				702B8D2D27607D71003F0458 /* FourViewController.h */,
 				702B8D2E27607D71003F0458 /* ThreeViewController.h */,
 				702B8D2F27607D71003F0458 /* SecondViewController.m */,
 				702B8D3027607D71003F0458 /* MainViewController.h */,
+				702B8D2C27607D71003F0458 /* MainViewController.m */,
 				702B8D3127607D71003F0458 /* ViewController.h */,
 				702B8D2B27607D71003F0458 /* ViewController.m */,
 			);
@@ -240,6 +279,7 @@
 		7092615B275EF1FB0033A009 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7009CDA827671DD400E2DF3E /* Banner */,
 				70926167275EFF480033A009 /* Base */,
 			);
 			path = View;
@@ -248,6 +288,7 @@
 		7092615C275EF1FB0033A009 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7009CDA42766F00600E2DF3E /* MainModel */,
 				702B8D5A2760A31C003F0458 /* QQBaseModel.h */,
 				702B8D5B2760A31C003F0458 /* QQBaseModel.m */,
 				702B8D4A276092B2003F0458 /* QQLoginModel.h */,
@@ -478,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7009CDB12767256E00E2DF3E /* QQBannerFooter.m in Sources */,
 				702B8D58276098F6003F0458 /* NSString+Password.m in Sources */,
 				702B8D3627607D71003F0458 /* SecondViewController.m in Sources */,
 				702B8D4927609167003F0458 /* QQDataManager.m in Sources */,
@@ -514,10 +556,14 @@
 				709261B3275F5BBE0033A009 /* UIFont+Custom.m in Sources */,
 				70926166275EFCE80033A009 /* QQBaseViewController.m in Sources */,
 				70D0FF2C276198180043B284 /* QQAccountManager.m in Sources */,
+				7009CDA32766EFEC00E2DF3E /* QQMainBannerModel.m in Sources */,
+				7009CDA72766F19900E2DF3E /* QQBannerModel.m in Sources */,
 				702B8D3327607D71003F0458 /* ThreeViewController.m in Sources */,
 				702B8D14276047E2003F0458 /* QQCustomItemView.m in Sources */,
 				709261AC275F5BBE0033A009 /* UIImage+ImageEffects.m in Sources */,
+				7009CDAE276724C400E2DF3E /* QQBannerCell.m in Sources */,
 				70D0FF2F2761D20C0043B284 /* QQAccountMessageModel.m in Sources */,
+				7009CDAB27671DFA00E2DF3E /* QQBannerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

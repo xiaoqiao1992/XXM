@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import "QQLoginModel.h"
+#import "QQAccountMessageModel.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QQAccountManager : NSObject
@@ -14,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(QQAccountManager *)share;
 
 @property (nonatomic, strong) QQLoginModel * accountModel;
++ (void)netWorkLoginWithParam:(NSDictionary *)param onComplete:(void(^)(QQAccountMessageModel * data))onComplete onFault:(void (^)(id error))onFault;
 
 
 

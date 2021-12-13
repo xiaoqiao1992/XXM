@@ -10,10 +10,12 @@
 #import "MJExtension.h"
 #import "QQNetwork.h"
 #import "AFHTTPSessionManager.h"
-
+#import "QQMainBannerModel.h"
 
 
 @interface ViewController ()
+
+
 
 @end
 
@@ -37,6 +39,12 @@
     [btn setTitle:@"获取信息" forState:UIControlStateNormal];
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(didClickBtn) forControlEvents:UIControlEventTouchUpInside];
+        
+    
+    
+    
+    
+    
   
 }
 

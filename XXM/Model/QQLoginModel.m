@@ -13,6 +13,13 @@
 + (NSDictionary *)mj_replacedKeyFromPropertyName{
     return @{@"userid" : @"id"};
 }
+
+
+
+
+
+
+
 -(void)encodeWithCoder:(NSCoder *)coder{
     unsigned int count;
     Ivar * ivars = class_copyIvarList([self class], &count);

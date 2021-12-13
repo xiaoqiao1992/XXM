@@ -6,16 +6,16 @@
 //
 
 #import "QQDataManager.h"
-
+#import "QQNetwork.h"
 @implementation QQDataManager
-+ (QQDataManager *)sharedManager
-{
-    static QQDataManager *instance = nil;
-    static dispatch_once_t predicate;
-    dispatch_once(&predicate, ^{
-        instance  = [[self alloc] init];
-    });
-    return instance;
+
++(void)netWorkMainBannerWithParam:(NSDictionary *)param onComplete:(void (^)(QQMainBannerModel * _Nonnull))onComplete onFault:(void (^)(id _Nonnull))onFault{
+    [[QQNetwork Network] dataWithUrl:QQMainBannerUrl Host:nil param:param method:QQHttpRequestMethodGet modelClassName:QQMainBannerModel.self onProgress:nil onComplete:^(QQMainBannerModel * data) {
+        onComplete(data);
+    } onFault:^(id error) {
+        onFault(error);
+        NSLog(@"%@",error);
+    }];
 }
 
 

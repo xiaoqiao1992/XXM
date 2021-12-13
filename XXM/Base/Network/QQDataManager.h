@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "QQAccountMessageModel.h"
+#import "QQMainBannerModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QQDataManager : NSObject
-+(QQDataManager *)shareManager;
+//+(QQDataManager *)shareManager;
++(void)netWorkMainBannerWithParam:(NSDictionary *)param onComplete:(void(^)(QQMainBannerModel * data))onComplete onFault:(void(^)(id error))onFault;
 
 
 @end

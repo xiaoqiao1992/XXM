@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "QQBaseViewController.h"
-
+#import "QQBannerView.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MainViewController : QQBaseViewController

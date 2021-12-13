@@ -38,4 +38,38 @@ dependencies: \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/QQAppUrlConfig.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/AccountMessage/QQAccountManager.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQLoginModel.h \
-  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQBaseModel.h
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQBaseModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQAccountMessageModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJExtension.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSObject+MJCoding.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJExtensionConst.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSObject+MJProperty.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSObject+MJClass.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSObject+MJKeyValue.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJProperty.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJPropertyType.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJPropertyKey.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSString+MJExtension.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJFoundation.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/Network/QQDataManager.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/MainModel/QQMainBannerModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/MainModel/QQBannerModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/Network/QQNetwork.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFNetworking.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFCompatibilityMacros.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/UIKit+AFNetworking.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFAutoPurgingImageCache.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFImageDownloader.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/UIActivityIndicatorView+AFNetworking.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/UIButton+AFNetworking.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/UIImageView+AFNetworking.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/UIProgressView+AFNetworking.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFNetworkActivityIndicatorManager.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/UIRefreshControl+AFNetworking.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/WKWebView+AFNetworking.h

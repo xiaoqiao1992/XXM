@@ -1,0 +1,22 @@
+Target dependency graph (8 targets)
+AFNetworking in Pods, no dependencies
+MBProgressHUD in Pods, no dependencies
+MJExtension in Pods, no dependencies
+Masonry in Pods, no dependencies
+MyLayout in Pods, no dependencies
+SDWebImage in Pods, no dependencies
+Pods-XXM in Pods, depends on:
+AFNetworking in Pods (explicit)
+MBProgressHUD in Pods (explicit)
+MJExtension in Pods (explicit)
+Masonry in Pods (explicit)
+MyLayout in Pods (explicit)
+SDWebImage in Pods (explicit)
+XXM in XXM, depends on:
+Pods-XXM in Pods (implicit dependency via file 'libPods-XXM.a' in build phase 'Link Binary')
+AFNetworking in Pods (implicit dependency via options '-lAFNetworking' in build setting 'OTHER_LDFLAGS')
+MBProgressHUD in Pods (implicit dependency via options '-lMBProgressHUD' in build setting 'OTHER_LDFLAGS')
+MJExtension in Pods (implicit dependency via options '-lMJExtension' in build setting 'OTHER_LDFLAGS')
+Masonry in Pods (implicit dependency via options '-lMasonry' in build setting 'OTHER_LDFLAGS')
+MyLayout in Pods (implicit dependency via options '-lMyLayout' in build setting 'OTHER_LDFLAGS')
+SDWebImage in Pods (implicit dependency via options '-lSDWebImage' in build setting 'OTHER_LDFLAGS')

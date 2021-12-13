@@ -39,9 +39,6 @@ dependencies: \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/AccountMessage/QQAccountManager.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQLoginModel.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQBaseModel.h \
-  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/main/ViewController.h \
-  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/Base/QQBaseViewController.h \
-  /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/Base/QQCommonNavigationBar.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQAccountMessageModel.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJExtension.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSObject+MJCoding.h \
@@ -54,6 +51,12 @@ dependencies: \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJPropertyKey.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSString+MJExtension.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJFoundation.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/Network/QQDataManager.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/MainModel/QQMainBannerModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/MainModel/QQBannerModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/main/ViewController.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/Base/QQBaseViewController.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/Base/QQCommonNavigationBar.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/Network/QQNetwork.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFNetworking.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h \
