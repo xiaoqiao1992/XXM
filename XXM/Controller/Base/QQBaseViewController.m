@@ -18,9 +18,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBarHidden = YES;
-    self.edgesForExtendedLayout = UIRectEdgeNone;
-        
-    
+    self.edgesForExtendedLayout = UIRectEdgeNone;    
     
 }
 

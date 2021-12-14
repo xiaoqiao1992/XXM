@@ -84,4 +84,13 @@
     }
     return result;
 }
+- (NSString *)jsonString
+{
+    NSMutableString *strM = [[NSMutableString alloc] initWithString:@"{\n"];
+    for (NSString *key in self.keyEnumerator) {
+        [strM appendFormat:@"%@: \"%@\",\n",key,self[key]];
+    }
+    [strM appendString:@"}"];
+    return strM;
+}
 @end

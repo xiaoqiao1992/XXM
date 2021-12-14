@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "QQMainBannerModel.h"
 #import "SDWebImage.h"
+#import "MainWKWebviewViewController.h"
 @interface MainViewController ()<QQBannerViewDelegate,QQBannerViewDataSource>
 @property (nonatomic, strong) QQBannerView *banner;
 @property (nonatomic, strong) NSArray<QQBannerModel *> * dataArray;
@@ -83,6 +84,10 @@
 // 在这里实现点击事件的处理
 - (void)banner:(QQBannerView *)banner didSelectItemAtIndex:(NSInteger)index
 {
+    QQBannerModel * model = self.dataArray[index];
+    MainWKWebviewViewController * vc = [MainWKWebviewViewController new];
+    vc.url = model.url;
+    [self.navigationController pushViewController:vc animated:YES];
     NSLog(@"点击了第%ld个项目", (long)index);
 }
 

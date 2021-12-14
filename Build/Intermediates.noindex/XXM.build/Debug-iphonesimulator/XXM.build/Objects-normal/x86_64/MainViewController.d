@@ -118,4 +118,8 @@ dependencies: \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/SDWebImage/SDImageAWebPCoder.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/SDWebImage/NSImage+Compatibility.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/SDWebImage/NSButton+WebCache.h \
-  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/SDWebImage/SDAnimatedImageRep.h
+  /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/SDWebImage/SDAnimatedImageRep.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/main/MainWKWebviewViewController.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Controller/QQWKWebviewBase/QQWKWebviewBaseController.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/WKWebview/QQWKWebView.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/WKWebview/QQScriptMessage.h

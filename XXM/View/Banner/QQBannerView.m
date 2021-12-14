@@ -7,11 +7,12 @@
 
 #import "QQBannerView.h"
 #import "QQBannerCell.h"
+#import "QQTimer.h"
 // 总共的item数
-#define ZY_TOTAL_ITEMS (self.itemCount * 10000)
+#define QQ_TOTAL_ITEMS (self.itemCount * 10000)
 
-#define ZY_FOOTER_WIDTH 64.0
-#define ZY_PAGE_CONTROL_HEIGHT 32.0
+#define QQ_FOOTER_WIDTH 64.0
+#define QQ_PAGE_CONTROL_HEIGHT 32.0
 @interface QQBannerView () <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -20,7 +21,7 @@
 @property (nonatomic, strong, readwrite) UIPageControl *pageControl;
 
 @property (nonatomic, assign) NSInteger itemCount;
-@property (nonatomic, strong) NSTimer *timer;
+@property (nonatomic, strong) NSString *timerName;
 
 @end
 
@@ -68,7 +69,7 @@ static NSString *banner_footer = @"banner_footer";
 {
     // collectionView
     self.flowLayout.itemSize = self.bounds.size;
-    self.flowLayout.footerReferenceSize = CGSizeMake(ZY_FOOTER_WIDTH, self.frame.size.height);
+    self.flowLayout.footerReferenceSize = CGSizeMake(QQ_FOOTER_WIDTH, self.frame.size.height);
     self.collectionView.frame = self.bounds;
     [self.collectionView reloadData];
     
@@ -76,7 +77,7 @@ static NSString *banner_footer = @"banner_footer";
     if (CGRectEqualToRect(self.pageControlFrame, CGRectZero)) {
         // 若未对pageControl设置过frame, 则使用以下默认frame
         CGFloat w = self.frame.size.width;
-        CGFloat h = ZY_PAGE_CONTROL_HEIGHT;
+        CGFloat h = QQ_PAGE_CONTROL_HEIGHT;
         CGFloat x = 0;
         CGFloat y = self.frame.size.height - h;
         self.pageControl.frame = CGRectMake(x, y, w, h);
@@ -93,7 +94,7 @@ static NSString *banner_footer = @"banner_footer";
     
     if (self.shouldLoop) {
         // 总item数的中间
-        [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:(ZY_TOTAL_ITEMS / 2) inSection:0]
+        [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:(QQ_TOTAL_ITEMS / 2) inSection:0]
                                     atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
         [self didScrollItemAtIndex:0];
     } else {
@@ -135,8 +136,9 @@ static NSString *banner_footer = @"banner_footer";
 
 - (void)stopTimer
 {
-    [self.timer invalidate];
-    self.timer = nil;
+    [QQTimer cancleTask:self.timerName];
+//    [self.timer invalidate];
+//    self.timer = nil;
 }
 
 - (void)startTimer
@@ -145,8 +147,10 @@ static NSString *banner_footer = @"banner_footer";
     
     [self stopTimer];
     
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:self.scrollInterval target:self selector:@selector(autoScrollToNextItem) userInfo:nil repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+//    self.timer = [NSTimer scheduledTimerWithTimeInterval:self.scrollInterval target:self selector:@selector(autoScrollToNextItem) userInfo:nil repeats:YES];
+//    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+    
+    self.timerName = [QQTimer execTask:self selector:@selector(autoScrollToNextItem) start:0.0 interval:self.scrollInterval repeat:YES async:NO];
 }
 
 // 定时器方法
@@ -163,7 +167,7 @@ static NSString *banner_footer = @"banner_footer";
     NSUInteger currentItem = currentIndexPath.item;
     NSUInteger nextItem = currentItem + 1;
     
-    if(nextItem >= ZY_TOTAL_ITEMS) {
+    if(nextItem >= QQ_TOTAL_ITEMS) {
         return;
     }
     
@@ -194,7 +198,7 @@ static NSString *banner_footer = @"banner_footer";
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     if (self.shouldLoop) {
-        return ZY_TOTAL_ITEMS;
+        return QQ_TOTAL_ITEMS;
     } else {
         return self.itemCount;
     }
@@ -285,14 +289,14 @@ static NSString *banner_footer = @"banner_footer";
     if (footerDisplayOffset > 0)
     {
         // 开始出现footer
-        if (footerDisplayOffset > ZY_FOOTER_WIDTH) {
+        if (footerDisplayOffset > QQ_FOOTER_WIDTH) {
             if (lastOffset > 0) return;
             self.footer.state = QQBannerFooterStateTrigger;
         } else {
             if (lastOffset < 0) return;
             self.footer.state = QQBannerFooterStateIdle;
         }
-        lastOffset = footerDisplayOffset - ZY_FOOTER_WIDTH;
+        lastOffset = footerDisplayOffset - QQ_FOOTER_WIDTH;
     }
 }
 
@@ -303,7 +307,7 @@ static NSString *banner_footer = @"banner_footer";
     CGFloat footerDisplayOffset = (scrollView.contentOffset.x - (self.frame.size.width * (self.itemCount - 1)));
     
     // 通知footer代理
-    if (footerDisplayOffset > ZY_FOOTER_WIDTH) {
+    if (footerDisplayOffset > QQ_FOOTER_WIDTH) {
         if ([self.delegate respondsToSelector:@selector(bannerFooterDidTrigger:)]) {
             [self.delegate bannerFooterDidTrigger:self];
         }
@@ -435,7 +439,7 @@ static NSString *banner_footer = @"banner_footer";
         NSIndexPath *oldCurrentIndexPath = [[self.collectionView indexPathsForVisibleItems] firstObject];
         NSUInteger oldCurrentIndex = oldCurrentIndexPath.item;
         NSUInteger newCurrentIndex = oldCurrentIndex - oldCurrentIndex % self.itemCount + currentIndex;
-        if(newCurrentIndex >= ZY_TOTAL_ITEMS) {
+        if(newCurrentIndex >= QQ_TOTAL_ITEMS) {
             return;
         }
         
@@ -483,7 +487,7 @@ static NSString *banner_footer = @"banner_footer";
         
         // 注册 \ 配置footer
         [_collectionView registerClass:[QQBannerFooter class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:banner_footer];
-        _collectionView.contentInset = UIEdgeInsetsMake(0, 0, 0, -ZY_FOOTER_WIDTH);
+        _collectionView.contentInset = UIEdgeInsetsMake(0, 0, 0, -QQ_FOOTER_WIDTH);
     }
     return _collectionView;
 }

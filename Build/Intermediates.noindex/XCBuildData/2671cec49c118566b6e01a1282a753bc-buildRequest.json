@@ -1,0 +1,64 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "4614dcfbe1c3190fdf8cab338151b4d46a6cfef149d1f4e2c20e06d6e543bd92"
+    }
+  ],
+  "containerPath" : "/Users/xiaoqiao/Desktop/原理/XXM/XXM.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/xiaoqiao/Desktop/原理/XXM/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/xiaoqiao/Desktop/原理/XXM/Build/Products",
+      "derivedDataPath" : "/Users/xiaoqiao/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/xiaoqiao/Library/Developer/Xcode/DerivedData/XXM-gyzpnxkbcxekmbfpjziyzcnoioxx/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/xiaoqiao/Library/Developer/Xcode/DerivedData/XXM-gyzpnxkbcxekmbfpjziyzcnoioxx/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/xiaoqiao/Desktop/原理/XXM/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.0",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "930451F8-C59D-4592-A2D9-2A05A1E0E056",
+          "TARGET_DEVICE_MODEL" : "iPhone14,2",
+          "TARGET_DEVICE_OS_VERSION" : "15.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

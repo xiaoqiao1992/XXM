@@ -51,6 +51,12 @@
 		709261B2275F5BBE0033A009 /* UIView+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */; };
 		709261B3275F5BBE0033A009 /* UIFont+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A2275F5BBE0033A009 /* UIFont+Custom.m */; };
 		709261B4275F5BBE0033A009 /* UIViewController+ZFTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */; };
+		709FD34F27682A09009774E5 /* QQTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD34E27682A09009774E5 /* QQTimer.m */; };
+		709FD35327684F7E009774E5 /* QQWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD35227684F7E009774E5 /* QQWKWebView.m */; };
+		709FD35627686A60009774E5 /* QQScriptMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD35527686A60009774E5 /* QQScriptMessage.m */; };
+		709FD35D27687029009774E5 /* QQWKWebviewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD35C27687029009774E5 /* QQWKWebviewBaseController.m */; };
+		709FD36327687709009774E5 /* QQWKWebviewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD36227687709009774E5 /* QQWKWebviewTool.m */; };
+		709FD3662768783E009774E5 /* MainWKWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD3652768783E009774E5 /* MainWKWebviewViewController.m */; };
 		70D0FF2227618FA60043B284 /* QQNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF2027618FA50043B284 /* QQNetwork.m */; };
 		70D0FF25276192090043B284 /* QQCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF24276192090043B284 /* QQCommonTools.m */; };
 		70D0FF28276195C40043B284 /* QQAppUrlConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF27276195C40043B284 /* QQAppUrlConfig.m */; };
@@ -147,6 +153,18 @@
 		709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZFTExtend.m"; sourceTree = "<group>"; };
 		709261A2275F5BBE0033A009 /* UIFont+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Custom.m"; sourceTree = "<group>"; };
 		709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFTExtend.m"; sourceTree = "<group>"; };
+		709FD34D27682A09009774E5 /* QQTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTimer.h; sourceTree = "<group>"; };
+		709FD34E27682A09009774E5 /* QQTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTimer.m; sourceTree = "<group>"; };
+		709FD35127684F7E009774E5 /* QQWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQWKWebView.h; sourceTree = "<group>"; };
+		709FD35227684F7E009774E5 /* QQWKWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQWKWebView.m; sourceTree = "<group>"; };
+		709FD35427686A60009774E5 /* QQScriptMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQScriptMessage.h; sourceTree = "<group>"; };
+		709FD35527686A60009774E5 /* QQScriptMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQScriptMessage.m; sourceTree = "<group>"; };
+		709FD35B27687029009774E5 /* QQWKWebviewBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQWKWebviewBaseController.h; sourceTree = "<group>"; };
+		709FD35C27687029009774E5 /* QQWKWebviewBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQWKWebviewBaseController.m; sourceTree = "<group>"; };
+		709FD36127687709009774E5 /* QQWKWebviewTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQWKWebviewTool.h; sourceTree = "<group>"; };
+		709FD36227687709009774E5 /* QQWKWebviewTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQWKWebviewTool.m; sourceTree = "<group>"; };
+		709FD3642768783E009774E5 /* MainWKWebviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWKWebviewViewController.h; sourceTree = "<group>"; };
+		709FD3652768783E009774E5 /* MainWKWebviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWKWebviewViewController.m; sourceTree = "<group>"; };
 		70D0FF2027618FA50043B284 /* QQNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNetwork.m; sourceTree = "<group>"; };
 		70D0FF2127618FA60043B284 /* QQNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNetwork.h; sourceTree = "<group>"; };
 		70D0FF23276192090043B284 /* QQCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCommonTools.h; sourceTree = "<group>"; };
@@ -210,6 +228,8 @@
 				702B8D2C27607D71003F0458 /* MainViewController.m */,
 				702B8D3127607D71003F0458 /* ViewController.h */,
 				702B8D2B27607D71003F0458 /* ViewController.m */,
+				709FD3642768783E009774E5 /* MainWKWebviewViewController.h */,
+				709FD3652768783E009774E5 /* MainWKWebviewViewController.m */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -269,6 +289,7 @@
 		7092615A275EF1FB0033A009 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				709FD35727686ED4009774E5 /* QQWKWebviewBase */,
 				702B8D2727607D71003F0458 /* main */,
 				70926160275EFA6D0033A009 /* Base */,
 				702B8D3727607D8F003F0458 /* Login */,
@@ -279,6 +300,7 @@
 		7092615B275EF1FB0033A009 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				709FD35027684F4B009774E5 /* WKWebview */,
 				7009CDA827671DD400E2DF3E /* Banner */,
 				70926167275EFF480033A009 /* Base */,
 			);
@@ -344,6 +366,8 @@
 				70D0FF24276192090043B284 /* QQCommonTools.m */,
 				70D0FF26276195C40043B284 /* QQAppUrlConfig.h */,
 				70D0FF27276195C40043B284 /* QQAppUrlConfig.m */,
+				709FD34D27682A09009774E5 /* QQTimer.h */,
+				709FD34E27682A09009774E5 /* QQTimer.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -394,6 +418,28 @@
 				7092614C275EF0170033A009 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		709FD35027684F4B009774E5 /* WKWebview */ = {
+			isa = PBXGroup;
+			children = (
+				709FD35127684F7E009774E5 /* QQWKWebView.h */,
+				709FD35227684F7E009774E5 /* QQWKWebView.m */,
+				709FD35427686A60009774E5 /* QQScriptMessage.h */,
+				709FD35527686A60009774E5 /* QQScriptMessage.m */,
+				709FD36127687709009774E5 /* QQWKWebviewTool.h */,
+				709FD36227687709009774E5 /* QQWKWebviewTool.m */,
+			);
+			path = WKWebview;
+			sourceTree = "<group>";
+		};
+		709FD35727686ED4009774E5 /* QQWKWebviewBase */ = {
+			isa = PBXGroup;
+			children = (
+				709FD35B27687029009774E5 /* QQWKWebviewBaseController.h */,
+				709FD35C27687029009774E5 /* QQWKWebviewBaseController.m */,
+			);
+			path = QQWKWebviewBase;
 			sourceTree = "<group>";
 		};
 		70D0FF29276197FD0043B284 /* AccountMessage */ = {
@@ -527,6 +573,7 @@
 				702B8D1127604240003F0458 /* QQCustomButton.m in Sources */,
 				709261A4275F5BBE0033A009 /* NSMutableDictionary+ZFTExtend.m in Sources */,
 				702B8D57276098F6003F0458 /* NSDictionary+Category.m in Sources */,
+				709FD35627686A60009774E5 /* QQScriptMessage.m in Sources */,
 				70D0FF28276195C40043B284 /* QQAppUrlConfig.m in Sources */,
 				70926142275EF0150033A009 /* AppDelegate.m in Sources */,
 				702B8D1727604DDD003F0458 /* QQCustomTabBar.m in Sources */,
@@ -537,19 +584,24 @@
 				70D0FF2227618FA60043B284 /* QQNetwork.m in Sources */,
 				709261AE275F5BBE0033A009 /* NSString+ZFTExtend.m in Sources */,
 				709261A8275F5BBE0033A009 /* UIButton+ZFTExtend.m in Sources */,
+				709FD36327687709009774E5 /* QQWKWebviewTool.m in Sources */,
 				702B8D3227607D71003F0458 /* FourViewController.m in Sources */,
 				702B8D2327605924003F0458 /* QQTabBarController.m in Sources */,
 				709261A9275F5BBE0033A009 /* UIImage+ZFTExtend.m in Sources */,
 				709261B4275F5BBE0033A009 /* UIViewController+ZFTExtend.m in Sources */,
 				702B8D3527607D71003F0458 /* MainViewController.m in Sources */,
 				702B8D3427607D71003F0458 /* ViewController.m in Sources */,
+				709FD3662768783E009774E5 /* MainWKWebviewViewController.m in Sources */,
 				70926163275EFAAF0033A009 /* QQNavigationController.m in Sources */,
+				709FD35327684F7E009774E5 /* QQWKWebView.m in Sources */,
 				709261B2275F5BBE0033A009 /* UIView+ZFTExtend.m in Sources */,
+				709FD35D27687029009774E5 /* QQWKWebviewBaseController.m in Sources */,
 				7092616E275F043F0033A009 /* QQCommonConfig.m in Sources */,
 				709261AD275F5BBE0033A009 /* UILabel+ZFTLabel.m in Sources */,
 				709261B1275F5BBE0033A009 /* NSMutableSet+ZFTExtend.m in Sources */,
 				70D0FF25276192090043B284 /* QQCommonTools.m in Sources */,
 				702B8D5C2760A31C003F0458 /* QQBaseModel.m in Sources */,
+				709FD34F27682A09009774E5 /* QQTimer.m in Sources */,
 				709261A5275F5BBE0033A009 /* MBProgressHUD+Add.m in Sources */,
 				7092616A275EFF870033A009 /* QQCommonNavigationBar.m in Sources */,
 				709261A7275F5BBE0033A009 /* UIColor+Custom.m in Sources */,

@@ -56,4 +56,5 @@ dependencies: \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/MainModel/QQBannerModel.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/Banner/QQBannerView.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/Banner/QQBannerFooter.h \
-  /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/Banner/QQBannerCell.h
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/View/Banner/QQBannerCell.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Base/QQTimer.h

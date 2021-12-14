@@ -27,5 +27,7 @@
 
 + (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;/**<json转dic*/
 
+- (NSString *)jsonString;
+
 
 @end
