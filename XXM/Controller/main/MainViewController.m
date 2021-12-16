@@ -10,9 +10,11 @@
 #import "QQMainBannerModel.h"
 #import "SDWebImage.h"
 #import "MainWKWebviewViewController.h"
+#import "QQUserInfoModel.h"
 @interface MainViewController ()<QQBannerViewDelegate,QQBannerViewDataSource>
 @property (nonatomic, strong) QQBannerView *banner;
 @property (nonatomic, strong) NSArray<QQBannerModel *> * dataArray;
+@property (nonatomic, strong) QQUserInfoModel * userInfoModel;
 @end
 
 @implementation MainViewController
@@ -29,7 +31,13 @@
     } onFault:^(id  _Nonnull error) {
         NSLog(@"%@",error);
     }];
+    
+    
+    
+    
+    
 }
+
 
 -(void)setUpBanner{
     self.banner = [[QQBannerView alloc] init];

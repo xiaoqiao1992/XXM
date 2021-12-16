@@ -16,6 +16,7 @@ extern BOOL const kIsAppRelease;//当前是否正式环境
 #pragma mark - 域名
 extern NSString * const QQAppURL;//app接口域名
 extern NSString * const QQMainBannerUrl;//首页banner
+extern NSString * const QQUserInfoUrl;//个人信息
 
 @end
 

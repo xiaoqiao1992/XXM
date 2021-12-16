@@ -20,6 +20,14 @@
 
 
 
++(void)netWorkGetUserInfoWithOnComplete:(void(^)(QQUserInfoModel * data))onComplete onFault:(void(^)(id error))onFault{
+    [[QQNetwork Network] dataWithUrl:QQUserInfoUrl Host:nil param:nil method:QQHttpRequestMethodGet modelClassName:QQUserInfoModel.self onProgress:nil onComplete:^(QQUserInfoModel * data) {
+        onComplete(data);
+    } onFault:^(id error) {
+        onFault(error);
+    }];
+}
+
 
 
 

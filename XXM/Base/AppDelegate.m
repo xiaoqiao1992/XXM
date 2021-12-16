@@ -23,7 +23,14 @@
     self.window.backgroundColor = [UIColor whiteColor];
     QQTabBarController * rootVC = [[QQTabBarController alloc] init];
     self.window.rootViewController = rootVC;//[[QQNavigationController alloc] initWithRootViewController:rootVC];
-    [self.window makeKeyAndVisible];    
+    [self.window makeKeyAndVisible];
+    
+    //获取用户信息
+    NSUserDefaults *userMessage = [NSUserDefaults standardUserDefaults];
+    NSDate * data = [userMessage objectForKey:@"QQUserInfoModel"];
+    [QQAccountManager share].userInfo = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    NSLog(@"%@",[QQAccountManager share].userInfo);
+        
     return YES;
 }
 

@@ -39,6 +39,7 @@ dependencies: /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQBaseModel.m \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQLoginModel.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQBaseModel.h \
   /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQAccountMessageModel.h \
+  /Users/xiaoqiao/Desktop/原理/XXM/XXM/Model/QQUserInfoModel.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJExtension.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/NSObject+MJCoding.h \
   /Users/xiaoqiao/Desktop/原理/XXM/Pods/Headers/Public/MJExtension/MJExtensionConst.h \

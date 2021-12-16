@@ -57,6 +57,8 @@
 		709FD35D27687029009774E5 /* QQWKWebviewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD35C27687029009774E5 /* QQWKWebviewBaseController.m */; };
 		709FD36327687709009774E5 /* QQWKWebviewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD36227687709009774E5 /* QQWKWebviewTool.m */; };
 		709FD3662768783E009774E5 /* MainWKWebviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FD3652768783E009774E5 /* MainWKWebviewViewController.m */; };
+		70C66EDA27697FC20077BF39 /* QQUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C66ED927697FC20077BF39 /* QQUserInfoModel.m */; };
+		70C66EDD27699E4B0077BF39 /* UIScrollView+MJRefreshEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C66EDC27699E4B0077BF39 /* UIScrollView+MJRefreshEX.m */; };
 		70D0FF2227618FA60043B284 /* QQNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF2027618FA50043B284 /* QQNetwork.m */; };
 		70D0FF25276192090043B284 /* QQCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF24276192090043B284 /* QQCommonTools.m */; };
 		70D0FF28276195C40043B284 /* QQAppUrlConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0FF27276195C40043B284 /* QQAppUrlConfig.m */; };
@@ -165,6 +167,10 @@
 		709FD36227687709009774E5 /* QQWKWebviewTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQWKWebviewTool.m; sourceTree = "<group>"; };
 		709FD3642768783E009774E5 /* MainWKWebviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWKWebviewViewController.h; sourceTree = "<group>"; };
 		709FD3652768783E009774E5 /* MainWKWebviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWKWebviewViewController.m; sourceTree = "<group>"; };
+		70C66ED827697FC20077BF39 /* QQUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQUserInfoModel.h; sourceTree = "<group>"; };
+		70C66ED927697FC20077BF39 /* QQUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQUserInfoModel.m; sourceTree = "<group>"; };
+		70C66EDB27699E4B0077BF39 /* UIScrollView+MJRefreshEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefreshEX.h"; sourceTree = "<group>"; };
+		70C66EDC27699E4B0077BF39 /* UIScrollView+MJRefreshEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefreshEX.m"; sourceTree = "<group>"; };
 		70D0FF2027618FA50043B284 /* QQNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNetwork.m; sourceTree = "<group>"; };
 		70D0FF2127618FA60043B284 /* QQNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNetwork.h; sourceTree = "<group>"; };
 		70D0FF23276192090043B284 /* QQCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCommonTools.h; sourceTree = "<group>"; };
@@ -218,10 +224,10 @@
 		702B8D2727607D71003F0458 /* main */ = {
 			isa = PBXGroup;
 			children = (
+				702B8D2D27607D71003F0458 /* FourViewController.h */,
 				702B8D2827607D71003F0458 /* FourViewController.m */,
 				702B8D2927607D71003F0458 /* SecondViewController.h */,
 				702B8D2A27607D71003F0458 /* ThreeViewController.m */,
-				702B8D2D27607D71003F0458 /* FourViewController.h */,
 				702B8D2E27607D71003F0458 /* ThreeViewController.h */,
 				702B8D2F27607D71003F0458 /* SecondViewController.m */,
 				702B8D3027607D71003F0458 /* MainViewController.h */,
@@ -317,6 +323,8 @@
 				702B8D4B276092B2003F0458 /* QQLoginModel.m */,
 				70D0FF2D2761D20C0043B284 /* QQAccountMessageModel.h */,
 				70D0FF2E2761D20C0043B284 /* QQAccountMessageModel.m */,
+				70C66ED827697FC20077BF39 /* QQUserInfoModel.h */,
+				70C66ED927697FC20077BF39 /* QQUserInfoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -407,6 +415,8 @@
 				709261A1275F5BBE0033A009 /* UIView+ZFTExtend.m */,
 				7092619D275F5BBE0033A009 /* UIViewController+ZFTExtend.h */,
 				709261A3275F5BBE0033A009 /* UIViewController+ZFTExtend.m */,
+				70C66EDB27699E4B0077BF39 /* UIScrollView+MJRefreshEX.h */,
+				70C66EDC27699E4B0077BF39 /* UIScrollView+MJRefreshEX.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -479,6 +489,7 @@
 				70926139275EF0150033A009 /* Sources */,
 				7092613A275EF0150033A009 /* Frameworks */,
 				7092613B275EF0150033A009 /* Resources */,
+				8EC719FB221CC9236B56F83E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -558,6 +569,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8EC719FB221CC9236B56F83E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XXM/Pods-XXM-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XXM/Pods-XXM-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XXM/Pods-XXM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -585,6 +613,7 @@
 				709261AE275F5BBE0033A009 /* NSString+ZFTExtend.m in Sources */,
 				709261A8275F5BBE0033A009 /* UIButton+ZFTExtend.m in Sources */,
 				709FD36327687709009774E5 /* QQWKWebviewTool.m in Sources */,
+				70C66EDD27699E4B0077BF39 /* UIScrollView+MJRefreshEX.m in Sources */,
 				702B8D3227607D71003F0458 /* FourViewController.m in Sources */,
 				702B8D2327605924003F0458 /* QQTabBarController.m in Sources */,
 				709261A9275F5BBE0033A009 /* UIImage+ZFTExtend.m in Sources */,
@@ -611,6 +640,7 @@
 				7009CDA32766EFEC00E2DF3E /* QQMainBannerModel.m in Sources */,
 				7009CDA72766F19900E2DF3E /* QQBannerModel.m in Sources */,
 				702B8D3327607D71003F0458 /* ThreeViewController.m in Sources */,
+				70C66EDA27697FC20077BF39 /* QQUserInfoModel.m in Sources */,
 				702B8D14276047E2003F0458 /* QQCustomItemView.m in Sources */,
 				709261AC275F5BBE0033A009 /* UIImage+ImageEffects.m in Sources */,
 				7009CDAE276724C400E2DF3E /* QQBannerCell.m in Sources */,

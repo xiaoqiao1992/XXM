@@ -17,6 +17,7 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
   - MyLayout (1.9.8)
   - SDWebImage (5.12.1):
     - SDWebImage/Core (= 5.12.1)
@@ -27,6 +28,7 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MJExtension
+  - MJRefresh
   - MyLayout
   - SDWebImage
 
@@ -36,6 +38,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJExtension
+    - MJRefresh
     - MyLayout
     - SDWebImage
 
@@ -44,9 +47,10 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   MyLayout: 6ca47dbf27648aa011496094cfe1162217e3c912
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
 
-PODFILE CHECKSUM: bf2a9e03130e7fb6191d05e711b4a29005a3a95a
+PODFILE CHECKSUM: 2a68a814e4803fa474fb26e4262f2722800c5f73
 
 COCOAPODS: 1.11.2

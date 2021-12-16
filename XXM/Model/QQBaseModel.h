@@ -9,10 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QQBaseModel : NSObject<NSCoding,NSSecureCoding>
-//  "errorCode": 0,
-//"errorMsg": ""
-
+@interface QQBaseModel : NSObject<NSCoding>
 @property (nonatomic, strong) NSString * errorMsg;
 @property (nonatomic, assign) int errorCode;
 

@@ -6,7 +6,7 @@
 //
 
 #import "FourViewController.h"
-
+#import "QQUserInfoModel.h"
 @interface FourViewController ()
 
 @end
@@ -16,8 +16,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor blueColor];
+    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(100, 350, 100, 100)];
+    [button setTitle:@"登录" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor redColor];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(onClickButton) forControlEvents:UIControlEventTouchUpInside];
 }
+-(void)onClickButton{
+    //获取个人信息
+    [QQDataManager netWorkGetUserInfoWithOnComplete:^(QQUserInfoModel * _Nonnull data) {
+        QQUserInfoModel * model = [QQUserInfoModel new];
+        model = data;
+        NSData *data2 = [NSKeyedArchiver archivedDataWithRootObject:model];
+        NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+        [user setObject:data2 forKey:@"QQUserInfoModel"];
+        [user synchronize];
+    } onFault:^(id  _Nonnull error) {
+        NSLog(@"%@",error);
+    }];
+}
+
 
 /*
 #pragma mark - Navigation
